@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+        <div class="registrationbox" id="reg">
+            <div class="checkbox">
+                <i class="fa-solid fa-check"></i>
+            </div>
+
+            <h2>Awesome!</h2>
+            <p>Your booking hasbeen confirmed check your email for details</p>
+            <button type="button" onclick="btnok()">ok</button>
+
+        </div>
+        <button id="btnclickme" type="button" onclick="btnclick()">CLICK ME</button>
+
+    <script>
+        let reg = document.getElementById("reg").style;
+        let btnclickme= document.getElementById("btnclickme").style;
+        function btnclick() {
+            reg.transition="1s";
+            reg.top="150px";
+
+            btnclickme.display="none";
+        }
+        function btnok() {
+           reg.top="-250px"
+           btnclickme.display="block";
+           reg.transition="1s";
+
+
+
+
+        }
+
+    </script>
+</body>
+
+</html>

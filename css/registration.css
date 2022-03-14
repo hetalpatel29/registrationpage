@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.registrationbox {
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+   position: relative;
+   top:-250px;
+    box-shadow: 0px 2px 10px lightgrey;
+}
+.registrationbox h2{
+    color: #7382a5;
+    padding: 0px 0px 20px 0px;
+
+}
+.registrationbox p{
+color: #7382a5;
+font-size: 15px;
+}
+
+.checkbox {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position:relative;
+    top: -25px;
+    left: 35%;
+    background-color: #82ce34;
+    z-index: 1;
+}
+
+.registrationbox .checkbox i {
+    vertical-align: middle;
+    color: white;
+    line-height: 60px;
+    font-size: 37px
+}
+button{
+    background-color: #82ce34;
+    border: bone;
+    border: none;
+    margin-top: 40px;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+}
+#btnclickme{
+    width: 150px;
+    height: 40px;
+    margin: auto;
+  
+    z-index: -1;
+}
